@@ -1,0 +1,5 @@
+# build library
+  $ g++ -c tinyxml2.cpp
+
+# build example
+  $ g++ xmltest.cpp tinyxml2.o
