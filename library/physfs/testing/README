@@ -1,0 +1,5 @@
+# Build example code
+
+  build dan ambil static library di src/depend/libphysfs.a
+
+  $ gcc test_physfs.c libphysfs.a

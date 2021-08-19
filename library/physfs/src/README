@@ -1,0 +1,6 @@
+# Compile static library
+
+  $ gcc -c *.c
+  $ mv *.o depend
+  $ cd depend
+  $ ar rcs libphysfs.a *
