@@ -1,5 +1,0 @@
-# Installing termux
-$ apt install clang
-$ apt install aapt
-
-aapt ini juga bisa diambil di assets aide

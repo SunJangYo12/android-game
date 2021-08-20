@@ -1,0 +1,8 @@
+# build library tes
+$ gcc -fPIC -shared tes.c -o libtes.so
+
+# build library tinyxml2
+$ cd ../library/tinyxml2
+$ g++ -fPIC -shared tinyxml2.cpp -o libtinyXML2.so
+$ mv libtinyxml2.so ../../jni
+$ g++ -fPIC -shared main.c libtinyXML2.so -o libmain.so

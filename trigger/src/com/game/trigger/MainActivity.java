@@ -15,15 +15,20 @@ public class MainActivity extends Activity {
 		Button btn = (Button)findViewById(R.id.push);
 		btn.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				Toast.makeText(MainActivity.this, ""+callExternal(), Toast.LENGTH_LONG).show();
+				Toast.makeText(MainActivity.this, "xx", Toast.LENGTH_LONG).show();
 			}
 		});
 
-		Toast.makeText(this, ""+call(), Toast.LENGTH_LONG).show();
+		Button btnxml = (Button)findViewById(R.id.tinyxml);
+		btnxml.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				Toast.makeText(MainActivity.this, ""+callTinyXML(), Toast.LENGTH_LONG).show();
+			}
+		});
+
 	}
 
-	public native int call();
-	public native int callExternal();
+	public native String callTinyXML();
 
 	static {
         System.loadLibrary("main");

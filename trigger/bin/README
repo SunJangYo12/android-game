@@ -1,9 +1,4 @@
+$ aapt add out.apk lib/arm64-v8a/libc++_shared.so
 $ aapt add out.apk lib/arm64-v8a/libmain.so
-$ aapt add out.apk lib/...
-$ al apkkey (sign this apk)
+$ aapt add out.apk lib/arm64-v8a/libtinyXML2.so
 
-# Catatan
- library ini bisa direplace di /data/app/com.game.trigger-1/lib
- misal libop.so awalnya penjumlahan bisa di diganti libop.so
- update ke perkalian dengan catatan jalankan command ini
- chmod 777 libop.so dengan root tentunya
