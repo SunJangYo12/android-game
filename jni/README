@@ -1,5 +1,3 @@
-# build library tes
-$ gcc -fPIC -shared tes.c -o libtes.so
 
 # build library tinyxml2
 $ cd ../library/tinyxml2
