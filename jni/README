@@ -4,3 +4,8 @@ $ cd ../library/tinyxml2
 $ g++ -fPIC -shared tinyxml2.cpp -o libtinyXML2.so
 $ mv libtinyxml2.so ../../jni
 $ g++ -fPIC -shared main.c libtinyXML2.so -o libmain.so
+
+! PERHATIAN !
+compile menggunakan lib jangan didalam folder misal g++ main.c lib/arm64/libtes.so
+tapi gunkana perintah ini g++ main.c libtes.so jika libnya didalam folder usahakan keluarkan dan
+didirektory main.c

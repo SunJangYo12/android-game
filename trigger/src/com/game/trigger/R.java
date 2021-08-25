@@ -11,7 +11,9 @@ public final class R {
     public static final class attr {
     }
     public static final class id {
+        public static final int physfs=0x7f050002;
         public static final int push=0x7f050000;
+        public static final int san=0x7f050003;
         public static final int tinyxml=0x7f050001;
     }
     public static final class layout {

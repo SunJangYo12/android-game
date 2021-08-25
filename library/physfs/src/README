@@ -4,3 +4,6 @@
   $ mv *.o depend
   $ cd depend
   $ ar rcs libphysfs.a *
+
+# Compile shared library
+  $ gcc -fPIC -shared *.c -o libphysfs.so

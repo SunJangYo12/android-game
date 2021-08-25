@@ -1,6 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:gravity="center">
 
     <Button
@@ -12,6 +13,18 @@
     <Button
         android:text="TinyXml2"
         android:id="@+id/tinyxml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="PHYSFS"
+        android:id="@+id/physfs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="SanAngeles"
+        android:id="@+id/san"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 

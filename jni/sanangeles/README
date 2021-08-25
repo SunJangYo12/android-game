@@ -1,0 +1,4 @@
+# Build library sanangeles
+gcc -fPIC -shared app-android.c demo.c importgl.c -lGLESv1_CM -ldl -lm -llog -DANDROID_NDK -DDISABLE_IMPORTGL -o libsanangeles.so
+
+# pindah libsanangeles.so di directory ../lib/army64/
